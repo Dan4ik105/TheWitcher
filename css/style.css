@@ -1,0 +1,233 @@
+@font-face{
+    font-family: "Mason Chonicles";
+    src: url("../fonts/Mason Chronicles.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    background: #141218 url(../img/background.jpg) no-repeat right 0%;
+    color: white;
+}
+main{
+    margin-top: 45px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.nav{
+    margin-left: 68px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 24px;
+}
+.social-link{
+    margin-left: 21px;
+}
+.genre{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+.rating{
+    margin-top: 16px;
+    display: flex;
+}
+.rate{
+    margin-left: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.film-name{
+    font-family: "Mason Chonicles";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 89px;
+    margin-top: 13px;
+}
+.title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 10px;
+    width: 450px;
+}
+.btn{
+    width: 260px;
+    height: 60px;
+    left: 153px;
+    top: 483px;
+    background: #9D2929;
+    border-radius: 8px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+}
+.play-btn{
+    margin-left: 400px;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    display: flex;
+    background: #9D2929;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 100px;
+}
+.play{
+    position: relative;
+    left: 2px;
+}
+.series{
+    display: flex;
+    margin-top: 45px;
+}
+.part{
+    border-radius: 8px;
+    width: 164px;
+    height: 113px;
+    margin-right: 30px;
+}
+.series-number{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 70px;
+    margin-left: 13px;
+}
+.part-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 2px;
+    margin-left: 13px;
+}
+.series-1{
+    background: url(../img/part_1.png);
+}
+.series-2{
+    background: url(../img/part_2.png);
+}
+.footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    color: grey;
+}
+.footer-links{
+    display: flex;
+}
+.footer-link{
+    margin-right: 25px;
+}
+@media (max-width: 1336px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(max-width: 992px){
+    .container{
+        max-width: 750px;
+    }
+    .play-btn{
+        margin-left: 200px;
+    }
+    .title{
+        width: 250px;
+    }
+}
+@media(max-width: 768px){
+    .container{
+        max-width: 560px;
+    }
+    .play-btn{
+        margin-left: 100px;
+    }
+}
+@media(max-width: 578px){
+    body{
+        background-position: -333px 0;
+        background-size: 882px;
+    }
+    .container{
+        width: 90%;
+    }
+    .play-btn{
+        display: none;
+    }
+    .title{
+        width: 315px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .film-name{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .series-2{
+        display: none;
+    }
+    .btn{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 25px;
+    }
+    .series{
+        margin-top: 40px;
+    }
+    .footer{
+        display: inline;
+    }
+    .year{
+        margin-top: 68px;
+        margin-bottom: 8px;
+    }
+    .nav{
+        display: block;
+        margin-left: 20px;
+
+    }
+    .nav-link{
+        margin: 10px;
+    }
+    .social-links{
+        margin-top: 5px;
+        width: 253px;
+    }
+    .social-link{
+        margin: 30px;
+    }
+}
