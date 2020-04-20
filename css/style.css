@@ -91,16 +91,26 @@ main{
     border: none;
     margin-top: 40px;
 }
-.play-btn{
+.circle{
+    margin-top: 100px;
     margin-left: 400px;
-    width: 120px;
-    height: 120px;
+    display: flex;
+    width: 132px;
+    height: 132px;
+    background: rgba(157, 41, 41, 0.5);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn{
+    width: 100px;
+    height: 100px;
     justify-content: center;
     display: flex;
+    opacity: none;
     background: #9D2929;
     border-radius: 50%;
     align-items: center;
-    margin-top: 100px;
 }
 .play{
     position: relative;
@@ -161,7 +171,7 @@ main{
     .container{
         max-width: 750px;
     }
-    .play-btn{
+    .circle{
         margin-left: 200px;
     }
     .title{
@@ -172,7 +182,7 @@ main{
     .container{
         max-width: 560px;
     }
-    .play-btn{
+    .circle{
         margin-left: 100px;
     }
 }
@@ -184,7 +194,7 @@ main{
     .container{
         width: 90%;
     }
-    .play-btn{
+    .circle{
         display: none;
     }
     .title{
